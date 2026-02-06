@@ -13,29 +13,89 @@ from plotly.subplots import make_subplots
 # Page configuration
 st.set_page_config(
     page_title="NFL Analysis Dashboard",
-    page_icon="🏈",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# Custom CSS - Dieter Rams inspired minimalism
 st.markdown("""
 <style>
+    /* Typography - clean and functional */
     .main-header {
-        font-size: 3rem;
-        font-weight: bold;
-        text-align: center;
-        padding: 1rem;
-        background: linear-gradient(90deg, #013369 0%, #D50A0A 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        text-align: left;
+        padding: 2rem 0 1rem 0;
+        color: #1A1A1A;
+        border-bottom: 1px solid #DDDDDD;
     }
-    .metric-card {
-        background-color: #f0f2f6;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-left: 4px solid #013369;
+
+    /* Reduce visual noise */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 0;
+        border-bottom: 1px solid #DDDDDD;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        padding: 0.75rem 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: #666666;
+        font-weight: 400;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background-color: transparent;
+        color: #1A1A1A;
+        border-bottom: 2px solid #4A4A4A;
+    }
+
+    /* Clean metric cards */
+    [data-testid="stMetricValue"] {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #1A1A1A;
+    }
+
+    [data-testid="stMetricLabel"] {
+        font-size: 0.75rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #666666;
+    }
+
+    /* Simplified sidebar */
+    .css-1d391kg, [data-testid="stSidebar"] {
+        background-color: #F5F5F5;
+    }
+
+    /* Remove emoji-heavy styling */
+    h1, h2, h3 {
+        font-weight: 400;
+        letter-spacing: -0.01em;
+    }
+
+    /* Clean buttons */
+    .stButton > button {
+        background-color: #4A4A4A;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 2px;
+        padding: 0.5rem 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+    }
+
+    .stButton > button:hover {
+        background-color: #333333;
+    }
+
+    /* Minimal dataframe styling */
+    .dataframe {
+        border: 1px solid #DDDDDD;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -90,27 +150,39 @@ def get_team_stats(pbp, team):
 
 @st.cache_data
 def get_all_teams_epa(pbp):
-    """Calculate EPA for all teams"""
+    """Calculate offensive EPA for all teams"""
     if 'epa' not in pbp.columns:
         return None
 
-    team_epa = pbp.groupby('posteam')['epa'].agg(['mean', 'sum', 'count']).reset_index()
+    # Filter for offensive plays only using play_type
+    # Exclude penalties, two-point conversions, and other non-standard plays
+    offensive_plays = pbp[
+        (pbp['play_type'].isin(['pass', 'run'])) &
+        (pbp['posteam'].notna()) &
+        (pbp['epa'].notna()) &
+        ((pbp['penalty'] == 0) | (pbp['penalty'].isna()))
+    ].copy()
+
+    # Filter to regular season only (excludes playoffs, preseason)
+    if 'season_type' in offensive_plays.columns:
+        offensive_plays = offensive_plays[offensive_plays['season_type'] == 'REG']
+
+    team_epa = offensive_plays.groupby('posteam')['epa'].agg(['mean', 'sum', 'count']).reset_index()
     team_epa.columns = ['Team', 'EPA/Play', 'Total EPA', 'Plays']
     team_epa = team_epa.sort_values('EPA/Play', ascending=False)
     return team_epa
 
 # Header
-st.markdown('<h1 class="main-header">🏈 NFL Analysis Dashboard</h1>', unsafe_allow_html=True)
-st.markdown("---")
+st.markdown('<h1 class="main-header">NFL Analysis Dashboard</h1>', unsafe_allow_html=True)
 
 # Sidebar
 with st.sidebar:
-    st.header("⚙️ Configuration")
+    st.header("Configuration")
 
     # Season selection
     season = st.selectbox(
         "Select Season",
-        options=[2024, 2023, 2022, 2021, 2020],
+        options=[2025, 2024, 2023, 2022, 2021, 2020],
         index=0
     )
 
@@ -129,7 +201,7 @@ with st.sidebar:
     )
 
     st.markdown("---")
-    st.info("💡 This dashboard uses nflreadpy to fetch NFL play-by-play data and advanced metrics like EPA (Expected Points Added).")
+    st.caption("Data source: nflreadpy | Metrics include EPA (Expected Points Added)")
 
 # Load data
 with st.spinner(f"Loading {season} season data..."):
@@ -140,7 +212,7 @@ if pbp is None:
     st.stop()
 
 # Main content
-tab1, tab2, tab3, tab4 = st.tabs(["📊 League Overview", "🏟️ Team Analysis", "👤 Player Stats", "📈 Advanced Metrics"])
+tab1, tab2, tab3, tab4 = st.tabs(["League Overview", "Team Analysis", "Player Stats", "Advanced Metrics"])
 
 # Tab 1: League Overview
 with tab1:
@@ -184,9 +256,16 @@ with tab1:
                 orientation='h',
                 title='Top 15 Offenses by EPA/Play',
                 color='EPA/Play',
-                color_continuous_scale='RdYlGn'
+                color_continuous_scale=['#CCCCCC', '#4A4A4A']
             )
-            fig.update_layout(height=500, yaxis={'categoryorder': 'total ascending'})
+            fig.update_layout(
+                height=500,
+                yaxis={'categoryorder': 'total ascending'},
+                plot_bgcolor='#FAFAFA',
+                paper_bgcolor='#FAFAFA',
+                font=dict(color='#1A1A1A', size=11),
+                title_font=dict(size=14, color='#1A1A1A')
+            )
             st.plotly_chart(fig, use_container_width=True)
 
         with col2:
@@ -198,9 +277,16 @@ with tab1:
                 orientation='h',
                 title='Top 15 Offenses by Total EPA',
                 color='Total EPA',
-                color_continuous_scale='Blues'
+                color_continuous_scale=['#CCCCCC', '#4A4A4A']
             )
-            fig.update_layout(height=500, yaxis={'categoryorder': 'total ascending'})
+            fig.update_layout(
+                height=500,
+                yaxis={'categoryorder': 'total ascending'},
+                plot_bgcolor='#FAFAFA',
+                paper_bgcolor='#FAFAFA',
+                font=dict(color='#1A1A1A', size=11),
+                title_font=dict(size=14, color='#1A1A1A')
+            )
             st.plotly_chart(fig, use_container_width=True)
 
         # Full rankings table
@@ -220,7 +306,7 @@ with tab2:
     team_stats = get_team_stats(pbp, selected_team)
 
     # Passing metrics
-    st.subheader("🎯 Passing Statistics")
+    st.subheader("Passing Statistics")
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
@@ -246,7 +332,7 @@ with tab2:
     st.markdown("---")
 
     # Rushing metrics
-    st.subheader("🏃 Rushing Statistics")
+    st.subheader("Rushing Statistics")
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
@@ -269,7 +355,7 @@ with tab3:
 
     # Top QBs
     if 'epa' in pbp.columns and 'passer_player_name' in pbp.columns:
-        st.subheader("🎯 Top Quarterbacks by EPA/Play")
+        st.subheader("Top Quarterbacks by EPA/Play")
 
         qb_stats = pbp[pbp['pass'] == 1].groupby('passer_player_name').agg({
             'epa': ['mean', 'count'],
@@ -293,7 +379,13 @@ with tab3:
             color='TDs',
             hover_data=['Player', 'Comp %', 'INTs'],
             title='QB Performance: EPA/Play vs Attempts',
-            color_continuous_scale='Viridis'
+            color_continuous_scale=['#CCCCCC', '#4A4A4A']
+        )
+        fig.update_layout(
+            plot_bgcolor='#FAFAFA',
+            paper_bgcolor='#FAFAFA',
+            font=dict(color='#1A1A1A', size=11),
+            title_font=dict(size=14, color='#1A1A1A')
         )
         st.plotly_chart(fig, use_container_width=True)
 
@@ -308,7 +400,7 @@ with tab3:
 
     # Top RBs
     if 'epa' in pbp.columns and 'rusher_player_name' in pbp.columns:
-        st.subheader("🏃 Top Running Backs by EPA/Rush")
+        st.subheader("Top Running Backs by EPA/Rush")
 
         rb_stats = pbp[pbp['rush'] == 1].groupby('rusher_player_name').agg({
             'epa': ['mean', 'count'],
@@ -328,10 +420,16 @@ with tab3:
             y='EPA/Rush',
             color='Yards/Carry',
             title='Top 15 Running Backs by EPA/Rush',
-            color_continuous_scale='Blues',
+            color_continuous_scale=['#CCCCCC', '#4A4A4A'],
             hover_data=['Attempts', 'Rush Yards', 'TDs']
         )
-        fig.update_layout(xaxis_tickangle=-45)
+        fig.update_layout(
+            xaxis_tickangle=-45,
+            plot_bgcolor='#FAFAFA',
+            paper_bgcolor='#FAFAFA',
+            font=dict(color='#1A1A1A', size=11),
+            title_font=dict(size=14, color='#1A1A1A')
+        )
         st.plotly_chart(fig, use_container_width=True)
 
         # RBs table
@@ -354,12 +452,21 @@ with tab4:
             # Pass EPA distribution
             pass_epa = pbp[pbp['pass'] == 1]['epa'].dropna()
             fig = go.Figure()
-            fig.add_trace(go.Histogram(x=pass_epa, nbinsx=50, name='Pass EPA'))
+            fig.add_trace(go.Histogram(
+                x=pass_epa,
+                nbinsx=50,
+                name='Pass EPA',
+                marker_color='#666666'
+            ))
             fig.update_layout(
                 title='Passing EPA Distribution',
                 xaxis_title='EPA',
                 yaxis_title='Frequency',
-                showlegend=False
+                showlegend=False,
+                plot_bgcolor='#FAFAFA',
+                paper_bgcolor='#FAFAFA',
+                font=dict(color='#1A1A1A', size=11),
+                title_font=dict(size=14, color='#1A1A1A')
             )
             st.plotly_chart(fig, use_container_width=True)
 
@@ -367,23 +474,32 @@ with tab4:
             # Rush EPA distribution
             rush_epa = pbp[pbp['rush'] == 1]['epa'].dropna()
             fig = go.Figure()
-            fig.add_trace(go.Histogram(x=rush_epa, nbinsx=50, name='Rush EPA', marker_color='orange'))
+            fig.add_trace(go.Histogram(
+                x=rush_epa,
+                nbinsx=50,
+                name='Rush EPA',
+                marker_color='#666666'
+            ))
             fig.update_layout(
                 title='Rushing EPA Distribution',
                 xaxis_title='EPA',
                 yaxis_title='Frequency',
-                showlegend=False
+                showlegend=False,
+                plot_bgcolor='#FAFAFA',
+                paper_bgcolor='#FAFAFA',
+                font=dict(color='#1A1A1A', size=11),
+                title_font=dict(size=14, color='#1A1A1A')
             )
             st.plotly_chart(fig, use_container_width=True)
 
         # Win Probability
         if 'wp' in pbp.columns:
             st.subheader("Win Probability Trends")
-            st.info("Select a specific game to see win probability chart")
+            st.caption("Select a specific game to view probability chart")
 
     # Data export
     st.markdown("---")
-    st.subheader("📥 Export Data")
+    st.subheader("Export Data")
 
     col1, col2 = st.columns(2)
 
@@ -400,13 +516,13 @@ with tab4:
                 )
 
     with col2:
-        st.info("More export options coming soon!")
+        st.caption("Additional export formats in development")
 
 # Footer
 st.markdown("---")
 st.markdown("""
-<div style='text-align: center; color: #666;'>
-    <p>Built with Streamlit | Data from nflverse | Season {}</p>
-    <p>EPA (Expected Points Added) measures the value of a play based on expected points before and after the play</p>
+<div style='text-align: left; color: #999999; font-size: 0.75rem; padding: 2rem 0 1rem 0;'>
+    <p style='margin: 0.25rem 0;'>Data: nflverse · Season {}</p>
+    <p style='margin: 0.25rem 0;'>EPA: Expected Points Added</p>
 </div>
 """.format(season), unsafe_allow_html=True)
