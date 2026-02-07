@@ -1,7 +1,9 @@
 'use client'
 
+import { useSeason } from '@/lib/SeasonContext'
+
 export default function Header() {
-  const currentYear = new Date().getFullYear()
+  const { season, setSeason } = useSeason()
   const seasons = [2025, 2024, 2023, 2022, 2021, 2020]
 
   return (
@@ -17,7 +19,8 @@ export default function Header() {
           <select
             id="season"
             className="bg-background border border-gray-300 rounded-sm px-4 py-2 text-sm focus:outline-none focus:border-secondary"
-            defaultValue={2025}
+            value={season}
+            onChange={(e) => setSeason(Number(e.target.value))}
           >
             {seasons.map(year => (
               <option key={year} value={year}>{year}</option>

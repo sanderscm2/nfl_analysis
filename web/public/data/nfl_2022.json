@@ -1,0 +1,204 @@
+{
+  "season": 2022,
+  "leagueStats": {
+    "totalPlays": 49434,
+    "totalTouchdowns": 1390,
+    "passingPlays": 22463,
+    "rushingPlays": 14407
+  },
+  "teamStats": [
+    {
+      "team": "KC",
+      "epaPerPlay": 0.17884171954653558,
+      "totalEPA": 191.0029564757,
+      "plays": 1068
+    },
+    {
+      "team": "BUF",
+      "epaPerPlay": 0.11648675383545865,
+      "totalEPA": 116.95270085080048,
+      "plays": 1004
+    },
+    {
+      "team": "PHI",
+      "epaPerPlay": 0.08946814936303465,
+      "totalEPA": 97.60975095507081,
+      "plays": 1091
+    },
+    {
+      "team": "SF",
+      "epaPerPlay": 0.07550863333965963,
+      "totalEPA": 77.01880600645282,
+      "plays": 1020
+    },
+    {
+      "team": "CIN",
+      "epaPerPlay": 0.06217530230051908,
+      "totalEPA": 63.356633044228936,
+      "plays": 1019
+    },
+    {
+      "team": "DET",
+      "epaPerPlay": 0.05995257974090781,
+      "totalEPA": 63.54973452536228,
+      "plays": 1060
+    },
+    {
+      "team": "JAX",
+      "epaPerPlay": 0.039252458923370176,
+      "totalEPA": 41.45059662307891,
+      "plays": 1056
+    },
+    {
+      "team": "MIA",
+      "epaPerPlay": 0.03781172189869779,
+      "totalEPA": 37.09329918262253,
+      "plays": 981
+    },
+    {
+      "team": "NYG",
+      "epaPerPlay": 0.024396002952204024,
+      "totalEPA": 25.786575120479654,
+      "plays": 1057
+    },
+    {
+      "team": "DAL",
+      "epaPerPlay": 0.014370398653668005,
+      "totalEPA": 15.706845728459129,
+      "plays": 1093
+    },
+    {
+      "team": "CLE",
+      "epaPerPlay": 0.010190687699381574,
+      "totalEPA": 11.097658904626535,
+      "plays": 1089
+    },
+    {
+      "team": "PIT",
+      "epaPerPlay": 0.00476889807975699,
+      "totalEPA": 5.198098906935119,
+      "plays": 1090
+    },
+    {
+      "team": "SEA",
+      "epaPerPlay": 0.0017020729224894915,
+      "totalEPA": 1.7259019434043443,
+      "plays": 1014
+    },
+    {
+      "team": "BAL",
+      "epaPerPlay": 0.0005401979750010994,
+      "totalEPA": 0.5499215385511191,
+      "plays": 1018
+    },
+    {
+      "team": "LV",
+      "epaPerPlay": -0.0007719187394923449,
+      "totalEPA": -0.7919886267191458,
+      "plays": 1026
+    },
+    {
+      "team": "GB",
+      "epaPerPlay": -0.0047469838740499554,
+      "totalEPA": -4.837176567656905,
+      "plays": 1019
+    },
+    {
+      "team": "LAC",
+      "epaPerPlay": -0.007400127021321198,
+      "totalEPA": -8.288142263879742,
+      "plays": 1120
+    },
+    {
+      "team": "ATL",
+      "epaPerPlay": -0.01296238807065497,
+      "totalEPA": -12.690177921171216,
+      "plays": 979
+    },
+    {
+      "team": "TB",
+      "epaPerPlay": -0.03291446101323089,
+      "totalEPA": -37.42374217204352,
+      "plays": 1137
+    },
+    {
+      "team": "MIN",
+      "epaPerPlay": -0.034163770009659124,
+      "totalEPA": -37.30683685054776,
+      "plays": 1092
+    },
+    {
+      "team": "NE",
+      "epaPerPlay": -0.04343433738699069,
+      "totalEPA": -42.131307265380975,
+      "plays": 970
+    },
+    {
+      "team": "NO",
+      "epaPerPlay": -0.04800631381067027,
+      "totalEPA": -47.9583074968596,
+      "plays": 999
+    },
+    {
+      "team": "CHI",
+      "epaPerPlay": -0.0523277088803546,
+      "totalEPA": -50.75787761394396,
+      "plays": 970
+    },
+    {
+      "team": "CAR",
+      "epaPerPlay": -0.055428163811183054,
+      "totalEPA": -52.989324603491,
+      "plays": 956
+    },
+    {
+      "team": "TEN",
+      "epaPerPlay": -0.0739275879257791,
+      "totalEPA": -71.04441199667372,
+      "plays": 961
+    },
+    {
+      "team": "ARI",
+      "epaPerPlay": -0.07579928531897846,
+      "totalEPA": -85.42579455448873,
+      "plays": 1127
+    },
+    {
+      "team": "WAS",
+      "epaPerPlay": -0.08178392712891282,
+      "totalEPA": -91.925134092898,
+      "plays": 1124
+    },
+    {
+      "team": "LA",
+      "epaPerPlay": -0.08836672282430467,
+      "totalEPA": -85.80408786239984,
+      "plays": 971
+    },
+    {
+      "team": "NYJ",
+      "epaPerPlay": -0.08909384401530533,
+      "totalEPA": -93.28125468402469,
+      "plays": 1047
+    },
+    {
+      "team": "DEN",
+      "epaPerPlay": -0.1073514277680575,
+      "totalEPA": -113.68516200637289,
+      "plays": 1059
+    },
+    {
+      "team": "IND",
+      "epaPerPlay": -0.17143977613695646,
+      "totalEPA": -186.35503666087166,
+      "plays": 1087
+    },
+    {
+      "team": "HOU",
+      "epaPerPlay": -0.19274879491489944,
+      "totalEPA": -193.71253888947393,
+      "plays": 1005
+    }
+  ],
+  "lastUpdated": "2026-02-06T20:36:55.800607"
+}

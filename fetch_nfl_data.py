@@ -50,34 +50,41 @@ def calculate_league_stats(pbp):
     return stats
 
 def main():
-    # Fetch 2025 data
-    pbp = fetch_season_data(2025)
-
-    # Calculate stats
-    team_stats = calculate_team_stats(pbp)
-    league_stats = calculate_league_stats(pbp)
-
-    # Prepare data structure
-    data = {
-        'season': 2025,
-        'leagueStats': league_stats,
-        'teamStats': team_stats,
-        'lastUpdated': pd.Timestamp.now().isoformat()
-    }
+    seasons = [2025, 2024, 2023, 2022, 2021, 2020]
 
     # Create output directory
     output_dir = Path(__file__).parent / 'web' / 'public' / 'data'
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Write JSON file
-    output_file = output_dir / 'nfl_2025.json'
-    with open(output_file, 'w') as f:
-        json.dump(data, f, indent=2)
+    for season in seasons:
+        print(f"\n--- Processing {season} season ---")
 
-    print(f"✅ Data exported to {output_file}")
-    print(f"   Teams: {len(team_stats)}")
-    print(f"   Total plays: {league_stats['totalPlays']:,}")
-    print(f"   Top team: {team_stats[0]['team']} (EPA/Play: {team_stats[0]['epaPerPlay']:.3f})")
+        # Fetch data
+        pbp = fetch_season_data(season)
+
+        # Calculate stats
+        team_stats = calculate_team_stats(pbp)
+        league_stats = calculate_league_stats(pbp)
+
+        # Prepare data structure
+        data = {
+            'season': season,
+            'leagueStats': league_stats,
+            'teamStats': team_stats,
+            'lastUpdated': pd.Timestamp.now().isoformat()
+        }
+
+        # Write JSON file
+        output_file = output_dir / f'nfl_{season}.json'
+        with open(output_file, 'w') as f:
+            json.dump(data, f, indent=2)
+
+        print(f"✅ Data exported to {output_file}")
+        print(f"   Teams: {len(team_stats)}")
+        print(f"   Total plays: {league_stats['totalPlays']:,}")
+        print(f"   Top team: {team_stats[0]['team']} (EPA/Play: {team_stats[0]['epaPerPlay']:.3f})")
+
+    print(f"\n✅ All seasons exported successfully!")
 
 if __name__ == '__main__':
     main()

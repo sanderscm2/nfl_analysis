@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useSeason } from '@/lib/SeasonContext'
 
 interface TeamStat {
   team: string
@@ -22,12 +23,14 @@ interface NFLData {
 }
 
 export default function Home() {
+  const { season } = useSeason()
   const [data, setData] = useState<NFLData | null>(null)
   const [loading, setLoading] = useState(true)
   const [sortBy, setSortBy] = useState<'epaPerPlay' | 'totalEPA'>('epaPerPlay')
 
   useEffect(() => {
-    fetch('/data/nfl_2025.json')
+    setLoading(true)
+    fetch(`/data/nfl_${season}.json`)
       .then(res => res.json())
       .then(data => {
         setData(data)
@@ -37,7 +40,7 @@ export default function Home() {
         console.error('Failed to load NFL data:', err)
         setLoading(false)
       })
-  }, [])
+  }, [season])
 
   if (loading) {
     return (
@@ -62,7 +65,7 @@ export default function Home() {
       {/* Hero Stats */}
       <section>
         <h2 className="text-2xl mb-6 pb-4 border-b border-gray-200">
-          League Overview — 2025 Season
+          League Overview — {season} Season
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="metric-card">
