@@ -199,7 +199,7 @@ export default function PlayersPage() {
                 </tr>
               </thead>
               <tbody>
-                {players.map((player, idx) => (
+                {(players as NFLData['playerStats']['qb']).map((player, idx) => (
                   <tr key={idx} className="border-b border-gray-100 hover:bg-gray-50">
                     <td className="py-3 px-4 text-gray-500">#{idx + 1}</td>
                     <td className="py-3 px-4 font-medium">{player.player}</td>
@@ -231,7 +231,7 @@ export default function PlayersPage() {
                 </tr>
               </thead>
               <tbody>
-                {players.map((player, idx) => (
+                {(players as NFLData['playerStats']['rb']).map((player, idx) => (
                   <tr key={idx} className="border-b border-gray-100 hover:bg-gray-50">
                     <td className="py-3 px-4 text-gray-500">#{idx + 1}</td>
                     <td className="py-3 px-4 font-medium">{player.player}</td>
@@ -263,7 +263,7 @@ export default function PlayersPage() {
                 </tr>
               </thead>
               <tbody>
-                {players.map((player, idx) => (
+                {(players as NFLData['playerStats']['wr']).map((player, idx) => (
                   <tr key={idx} className="border-b border-gray-100 hover:bg-gray-50">
                     <td className="py-3 px-4 text-gray-500">#{idx + 1}</td>
                     <td className="py-3 px-4 font-medium">{player.player}</td>
