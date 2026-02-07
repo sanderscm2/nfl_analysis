@@ -11,194 +11,2191 @@
       "team": "LA",
       "epaPerPlay": 0.1480838067963941,
       "totalEPA": 154.30332668184266,
-      "plays": 1042
+      "plays": 1042,
+      "passEpaPerPlay": 0.2402797702181619,
+      "passTotalEPA": 146.09010029264243,
+      "passPlays": 608,
+      "rushEpaPerPlay": 0.018924484767742424,
+      "rushTotalEPA": 8.213226389200212,
+      "rushPlays": 434
     },
     {
       "team": "NE",
       "epaPerPlay": 0.14782837004848245,
       "totalEPA": 149.0109970088703,
-      "plays": 1008
+      "plays": 1008,
+      "passEpaPerPlay": 0.2742235330739958,
+      "passTotalEPA": 150.0002725914757,
+      "passPlays": 547,
+      "rushEpaPerPlay": -0.0021459340186667833,
+      "rushTotalEPA": -0.9892755826053872,
+      "rushPlays": 461
     },
     {
       "team": "BUF",
       "epaPerPlay": 0.12455885303185338,
       "totalEPA": 130.28856027131863,
-      "plays": 1046
+      "plays": 1046,
+      "passEpaPerPlay": 0.15028579211305051,
+      "passTotalEPA": 79.95204140414288,
+      "passPlays": 532,
+      "rushEpaPerPlay": 0.09793097055870768,
+      "rushTotalEPA": 50.33651886717575,
+      "rushPlays": 514
     },
     {
       "team": "GB",
       "epaPerPlay": 0.10017098757705568,
       "totalEPA": 98.26773881309163,
-      "plays": 981
+      "plays": 981,
+      "passEpaPerPlay": 0.21150325297547032,
+      "passTotalEPA": 108.2896655234408,
+      "passPlays": 512,
+      "rushEpaPerPlay": -0.021368713668121913,
+      "rushTotalEPA": -10.021926710349177,
+      "rushPlays": 469
     },
     {
       "team": "SF",
       "epaPerPlay": 0.09359108761032917,
       "totalEPA": 98.64500634128694,
-      "plays": 1054
+      "plays": 1054,
+      "passEpaPerPlay": 0.16756407702232462,
+      "passTotalEPA": 100.37088213637244,
+      "passPlays": 599,
+      "rushEpaPerPlay": -0.0037931336155725146,
+      "rushTotalEPA": -1.7258757950854942,
+      "rushPlays": 455
     },
     {
       "team": "CHI",
       "epaPerPlay": 0.08261474985013473,
       "totalEPA": 89.22392983814551,
-      "plays": 1080
+      "plays": 1080,
+      "passEpaPerPlay": 0.09508717801617622,
+      "passTotalEPA": 56.19652220756014,
+      "passPlays": 591,
+      "rushEpaPerPlay": 0.06754071090099256,
+      "rushTotalEPA": 33.027407630585365,
+      "rushPlays": 489
     },
     {
       "team": "DAL",
       "epaPerPlay": 0.08088014428153197,
       "totalEPA": 87.67407640118066,
-      "plays": 1084
+      "plays": 1084,
+      "passEpaPerPlay": 0.13245810172327319,
+      "passTotalEPA": 85.17055940806466,
+      "passPlays": 643,
+      "rushEpaPerPlay": 0.005676909281442178,
+      "rushTotalEPA": 2.5035169931160004,
+      "rushPlays": 441
     },
     {
       "team": "DET",
       "epaPerPlay": 0.07231375068544427,
       "totalEPA": 75.13398696217659,
-      "plays": 1039
+      "plays": 1039,
+      "passEpaPerPlay": 0.15856575722771424,
+      "passTotalEPA": 97.20080918058882,
+      "passPlays": 613,
+      "rushEpaPerPlay": -0.05180005215589727,
+      "rushTotalEPA": -22.066822218412238,
+      "rushPlays": 426
     },
     {
       "team": "IND",
       "epaPerPlay": 0.07191676044125735,
       "totalEPA": 71.62909339949232,
-      "plays": 996
+      "plays": 996,
+      "passEpaPerPlay": 0.054768853784571,
+      "passTotalEPA": 31.38255321855918,
+      "passPlays": 573,
+      "rushEpaPerPlay": 0.09514548506130767,
+      "rushTotalEPA": 40.246540180933145,
+      "rushPlays": 423
     },
     {
       "team": "DEN",
       "epaPerPlay": 0.03619411851374328,
       "totalEPA": 38.43815386159537,
-      "plays": 1062
+      "plays": 1062,
+      "passEpaPerPlay": 0.06584011804169068,
+      "passTotalEPA": 41.41343424822344,
+      "passPlays": 629,
+      "rushEpaPerPlay": -0.0068713172901341095,
+      "rushTotalEPA": -2.9752803866280693,
+      "rushPlays": 433
     },
     {
       "team": "KC",
       "epaPerPlay": 0.03281413356471224,
       "totalEPA": 33.66730103739476,
-      "plays": 1026
+      "plays": 1026,
+      "passEpaPerPlay": 0.030508466412400508,
+      "passTotalEPA": 18.854232242863514,
+      "passPlays": 618,
+      "rushEpaPerPlay": 0.03630654116306678,
+      "rushTotalEPA": 14.813068794531246,
+      "rushPlays": 408
     },
     {
       "team": "JAX",
       "epaPerPlay": 0.029364273145964535,
       "totalEPA": 30.94994389584662,
-      "plays": 1054
+      "plays": 1054,
+      "passEpaPerPlay": 0.05251880337621016,
+      "passTotalEPA": 31.248688008845047,
+      "passPlays": 595,
+      "rushEpaPerPlay": -0.0006508586339834985,
+      "rushTotalEPA": -0.29874411299842585,
+      "rushPlays": 459
     },
     {
       "team": "BAL",
       "epaPerPlay": 0.028977416107705014,
       "totalEPA": 27.35468080567353,
-      "plays": 944
+      "plays": 944,
+      "passEpaPerPlay": -0.040121437811815576,
+      "passTotalEPA": -18.49598283124698,
+      "passPlays": 461,
+      "rushEpaPerPlay": 0.09492891022136753,
+      "rushTotalEPA": 45.850663636920515,
+      "rushPlays": 483
     },
     {
       "team": "SEA",
       "epaPerPlay": 0.026063196233791754,
       "totalEPA": 25.385553131713166,
-      "plays": 974
+      "plays": 974,
+      "passEpaPerPlay": 0.11018119948017883,
+      "passTotalEPA": 54.76005614164888,
+      "passPlays": 497,
+      "rushEpaPerPlay": -0.061581767316427075,
+      "rushTotalEPA": -29.374503009935715,
+      "rushPlays": 477
     },
     {
       "team": "PHI",
       "epaPerPlay": 0.01885170333571072,
       "totalEPA": 18.53122437900364,
-      "plays": 983
+      "plays": 983,
+      "passEpaPerPlay": 0.0383376430831799,
+      "passTotalEPA": 20.203937904835808,
+      "passPlays": 527,
+      "rushEpaPerPlay": -0.0036682314162986176,
+      "rushTotalEPA": -1.6727135258321697,
+      "rushPlays": 456
     },
     {
       "team": "CIN",
       "epaPerPlay": 0.01057515475304165,
       "totalEPA": 11.008736097916357,
-      "plays": 1041
+      "plays": 1041,
+      "passEpaPerPlay": 0.006104260861025319,
+      "passTotalEPA": 4.095959037747989,
+      "passPlays": 671,
+      "rushEpaPerPlay": 0.018683181243698284,
+      "rushTotalEPA": 6.912777060168365,
+      "rushPlays": 370
     },
     {
       "team": "PIT",
       "epaPerPlay": 0.00967340425378493,
       "totalEPA": 9.276794679379748,
-      "plays": 959
+      "plays": 959,
+      "passEpaPerPlay": 0.00969485279582042,
+      "passTotalEPA": 5.564845504800921,
+      "passPlays": 574,
+      "rushEpaPerPlay": 0.009641426427477472,
+      "rushTotalEPA": 3.7119491745788267,
+      "rushPlays": 385
     },
     {
       "team": "WAS",
       "epaPerPlay": 0.0031561463512316795,
       "totalEPA": 3.042525082587339,
-      "plays": 964
+      "plays": 964,
+      "passEpaPerPlay": 0.0003273525588243637,
+      "passTotalEPA": 0.16138481150041128,
+      "passPlays": 493,
+      "rushEpaPerPlay": 0.006117070639250379,
+      "rushTotalEPA": 2.8811402710869283,
+      "rushPlays": 471
     },
     {
       "team": "NYG",
       "epaPerPlay": -0.009714461212300695,
       "totalEPA": -10.229327656552632,
-      "plays": 1053
+      "plays": 1053,
+      "passEpaPerPlay": -0.03462455917635622,
+      "passTotalEPA": -19.562875934641266,
+      "passPlays": 565,
+      "rushEpaPerPlay": 0.019126123520673433,
+      "rushTotalEPA": 9.333548278088635,
+      "rushPlays": 488
     },
     {
       "team": "HOU",
       "epaPerPlay": -0.01661252253093872,
       "totalEPA": -17.559436315202227,
-      "plays": 1057
+      "plays": 1057,
+      "passEpaPerPlay": 0.03352163944477309,
+      "passTotalEPA": 20.414678421866814,
+      "passPlays": 609,
+      "rushEpaPerPlay": -0.08476364896667198,
+      "rushTotalEPA": -37.974114737069044,
+      "rushPlays": 448
     },
     {
       "team": "MIA",
       "epaPerPlay": -0.017264076107879726,
       "totalEPA": -16.090118932543906,
-      "plays": 932
+      "plays": 932,
+      "passEpaPerPlay": 0.0009395913577409348,
+      "passTotalEPA": 0.4820103665210995,
+      "passPlays": 513,
+      "rushEpaPerPlay": -0.03955162123881863,
+      "rushTotalEPA": -16.572129299065004,
+      "rushPlays": 419
     },
     {
       "team": "ATL",
       "epaPerPlay": -0.019420519768003915,
       "totalEPA": -19.789509643595988,
-      "plays": 1019
+      "plays": 1019,
+      "passEpaPerPlay": -0.006759171830578201,
+      "passTotalEPA": -3.7851362251237926,
+      "passPlays": 560,
+      "rushEpaPerPlay": -0.034867915944383876,
+      "rushTotalEPA": -16.0043734184722,
+      "rushPlays": 459
     },
     {
       "team": "ARI",
       "epaPerPlay": -0.019797869708045954,
       "totalEPA": -20.965944020820665,
-      "plays": 1059
+      "plays": 1059,
+      "passEpaPerPlay": 0.0025519881009618516,
+      "passTotalEPA": 1.788943658774258,
+      "passPlays": 701,
+      "rushEpaPerPlay": -0.06356113876981823,
+      "rushTotalEPA": -22.754887679594923,
+      "rushPlays": 358
     },
     {
       "team": "TB",
       "epaPerPlay": -0.02214554120057531,
       "totalEPA": -23.252818260604077,
-      "plays": 1050
+      "plays": 1050,
+      "passEpaPerPlay": -0.038412436353728964,
+      "passTotalEPA": -22.816987194115004,
+      "passPlays": 594,
+      "rushEpaPerPlay": -0.0009557698826514768,
+      "rushTotalEPA": -0.43583106648907344,
+      "rushPlays": 456
     },
     {
       "team": "CAR",
       "epaPerPlay": -0.031465920833053974,
       "totalEPA": -30.899534258059006,
-      "plays": 982
+      "plays": 982,
+      "passEpaPerPlay": -0.03129982150753071,
+      "passTotalEPA": -17.08970254311177,
+      "passPlays": 546,
+      "rushEpaPerPlay": -0.03167392595171385,
+      "rushTotalEPA": -13.80983171494724,
+      "rushPlays": 436
     },
     {
       "team": "LAC",
       "epaPerPlay": -0.04088661572738888,
       "totalEPA": -43.462472518214376,
-      "plays": 1063
+      "plays": 1063,
+      "passEpaPerPlay": -0.07531972003704406,
+      "passTotalEPA": -46.24630810274505,
+      "passPlays": 614,
+      "rushEpaPerPlay": 0.006200079252852268,
+      "rushTotalEPA": 2.783835584530668,
+      "rushPlays": 449
     },
     {
       "team": "NO",
       "epaPerPlay": -0.0903123740261793,
       "totalEPA": -94.19580610930501,
-      "plays": 1043
+      "plays": 1043,
+      "passEpaPerPlay": -0.07234082601704715,
+      "passTotalEPA": -45.21301626065447,
+      "passPlays": 625,
+      "rushEpaPerPlay": -0.11718370777189123,
+      "rushTotalEPA": -48.98278984865053,
+      "rushPlays": 418
     },
     {
       "team": "MIN",
       "epaPerPlay": -0.11731844072981225,
       "totalEPA": -108.2849207936167,
-      "plays": 923
+      "plays": 923,
+      "passEpaPerPlay": -0.19354982992238381,
+      "passTotalEPA": -104.1298084982425,
+      "passPlays": 538,
+      "rushEpaPerPlay": -0.010792499468504415,
+      "rushTotalEPA": -4.1551122953742,
+      "rushPlays": 385
     },
     {
       "team": "NYJ",
       "epaPerPlay": -0.13197808499993666,
       "totalEPA": -130.52632606493736,
-      "plays": 989
+      "plays": 989,
+      "passEpaPerPlay": -0.1838571446656575,
+      "passTotalEPA": -100.56985813211465,
+      "passPlays": 547,
+      "rushEpaPerPlay": -0.06777481432765321,
+      "rushTotalEPA": -29.95646793282272,
+      "rushPlays": 442
     },
     {
       "team": "TEN",
       "epaPerPlay": -0.15614563461273928,
       "totalEPA": -154.5841782666119,
-      "plays": 990
+      "plays": 990,
+      "passEpaPerPlay": -0.21675854843540457,
+      "passTotalEPA": -134.60705857838624,
+      "passPlays": 621,
+      "rushEpaPerPlay": -0.05413853574044891,
+      "rushTotalEPA": -19.97711968822565,
+      "rushPlays": 369
     },
     {
       "team": "CLE",
       "epaPerPlay": -0.2046858173123073,
       "totalEPA": -206.11861803349348,
-      "plays": 1007
+      "plays": 1007,
+      "passEpaPerPlay": -0.3084506302828393,
+      "passTotalEPA": -183.83657564857222,
+      "passPlays": 596,
+      "rushEpaPerPlay": -0.0542142150484702,
+      "rushTotalEPA": -22.282042384921255,
+      "rushPlays": 411
     },
     {
       "team": "LV",
       "epaPerPlay": -0.22309240834358748,
       "totalEPA": -206.3604777178184,
-      "plays": 925
+      "plays": 925,
+      "passEpaPerPlay": -0.1956007902295446,
+      "passTotalEPA": -110.90564806015179,
+      "passPlays": 567,
+      "rushEpaPerPlay": -0.2666336023957169,
+      "rushTotalEPA": -95.45482965766664,
+      "rushPlays": 358
     }
   ],
-  "lastUpdated": "2026-02-06T20:36:53.414811"
+  "playerStats": {
+    "qb": [
+      {
+        "player": "J.Love",
+        "epaPerPlay": 0.2701205312597785,
+        "totalEPA": 144.2443636927217,
+        "plays": 534,
+        "passingYards": 3684.0,
+        "touchdowns": 27.0,
+        "interceptions": 6.0,
+        "completions": 310.0,
+        "attempts": 501.0
+      },
+      {
+        "player": "D.Maye",
+        "epaPerPlay": 0.22728698813168277,
+        "totalEPA": 164.78306639547,
+        "plays": 725,
+        "passingYards": 4885.0,
+        "touchdowns": 34.0,
+        "interceptions": 10.0,
+        "completions": 394.0,
+        "attempts": 628.0
+      },
+      {
+        "player": "M.Stafford",
+        "epaPerPlay": 0.20130902840675133,
+        "totalEPA": 149.97522616302973,
+        "plays": 745,
+        "passingYards": 5553.0,
+        "touchdowns": 52.0,
+        "interceptions": 8.0,
+        "completions": 447.0,
+        "attempts": 730.0
+      },
+      {
+        "player": "J.Allen",
+        "epaPerPlay": 0.1828326852335291,
+        "totalEPA": 125.24038938496744,
+        "plays": 685,
+        "passingYards": 4182.0,
+        "touchdowns": 27.0,
+        "interceptions": 11.0,
+        "completions": 367.0,
+        "attempts": 574.0
+      },
+      {
+        "player": "J.Burrow",
+        "epaPerPlay": 0.1822213513477008,
+        "totalEPA": 52.66197053948553,
+        "plays": 289,
+        "passingYards": 1804.0,
+        "touchdowns": 17.0,
+        "interceptions": 4.0,
+        "completions": 172.0,
+        "attempts": 276.0
+      },
+      {
+        "player": "B.Purdy",
+        "epaPerPlay": 0.16969585840766327,
+        "totalEPA": 67.53895164624998,
+        "plays": 398,
+        "passingYards": 2569.0,
+        "touchdowns": 22.0,
+        "interceptions": 12.0,
+        "completions": 230.0,
+        "attempts": 358.0
+      },
+      {
+        "player": "P.Mahomes",
+        "epaPerPlay": 0.16436044198853414,
+        "totalEPA": 95.16469591136126,
+        "plays": 579,
+        "passingYards": 3472.0,
+        "touchdowns": 21.0,
+        "interceptions": 10.0,
+        "completions": 306.0,
+        "attempts": 524.0
+      },
+      {
+        "player": "D.Jones",
+        "epaPerPlay": 0.1559810955995921,
+        "totalEPA": 68.78766315942012,
+        "plays": 441,
+        "passingYards": 3058.0,
+        "touchdowns": 19.0,
+        "interceptions": 7.0,
+        "completions": 258.0,
+        "attempts": 405.0
+      },
+      {
+        "player": "J.Goff",
+        "epaPerPlay": 0.1482366374262442,
+        "totalEPA": 91.75847856684517,
+        "plays": 619,
+        "passingYards": 4479.0,
+        "touchdowns": 33.0,
+        "interceptions": 8.0,
+        "completions": 389.0,
+        "attempts": 608.0
+      },
+      {
+        "player": "M.Jones",
+        "epaPerPlay": 0.14071903867778413,
+        "totalEPA": 46.01512564763541,
+        "plays": 327,
+        "passingYards": 2142.0,
+        "touchdowns": 13.0,
+        "interceptions": 5.0,
+        "completions": 202.0,
+        "attempts": 305.0
+      },
+      {
+        "player": "S.Darnold",
+        "epaPerPlay": 0.13962497272694968,
+        "totalEPA": 80.14473434526911,
+        "plays": 574,
+        "passingYards": 4415.0,
+        "touchdowns": 28.0,
+        "interceptions": 13.0,
+        "completions": 355.0,
+        "attempts": 551.0
+      },
+      {
+        "player": "D.Prescott",
+        "epaPerPlay": 0.13097573987173,
+        "totalEPA": 85.78910961598315,
+        "plays": 655,
+        "passingYards": 4445.0,
+        "touchdowns": 28.0,
+        "interceptions": 10.0,
+        "completions": 394.0,
+        "attempts": 619.0
+      },
+      {
+        "player": "C.Williams",
+        "epaPerPlay": 0.10190950680451237,
+        "totalEPA": 76.43213010338428,
+        "plays": 750,
+        "passingYards": 4525.0,
+        "touchdowns": 31.0,
+        "interceptions": 12.0,
+        "completions": 372.0,
+        "attempts": 676.0
+      },
+      {
+        "player": "B.Nix",
+        "epaPerPlay": 0.09207542602726765,
+        "totalEPA": 68.96449409442347,
+        "plays": 749,
+        "passingYards": 4141.0,
+        "touchdowns": 28.0,
+        "interceptions": 12.0,
+        "completions": 405.0,
+        "attempts": 673.0
+      },
+      {
+        "player": "L.Jackson",
+        "epaPerPlay": 0.08110106886578222,
+        "totalEPA": 31.71051792652085,
+        "plays": 391,
+        "passingYards": 2532.0,
+        "touchdowns": 21.0,
+        "interceptions": 7.0,
+        "completions": 191.0,
+        "attempts": 335.0
+      },
+      {
+        "player": "T.Lawrence",
+        "epaPerPlay": 0.0800402850427771,
+        "totalEPA": 56.108239814986746,
+        "plays": 701,
+        "passingYards": 4172.0,
+        "touchdowns": 32.0,
+        "interceptions": 14.0,
+        "completions": 355.0,
+        "attempts": 623.0
+      },
+      {
+        "player": "J.Hurts",
+        "epaPerPlay": 0.06939683982633588,
+        "totalEPA": 42.54026281354389,
+        "plays": 613,
+        "passingYards": 3351.0,
+        "touchdowns": 26.0,
+        "interceptions": 6.0,
+        "completions": 310.0,
+        "attempts": 518.0
+      },
+      {
+        "player": "K.Murray",
+        "epaPerPlay": 0.06005474063257488,
+        "totalEPA": 12.010948126514975,
+        "plays": 200,
+        "passingYards": 958.0,
+        "touchdowns": 6.0,
+        "interceptions": 3.0,
+        "completions": 109.0,
+        "attempts": 174.0
+      },
+      {
+        "player": "M.Penix",
+        "epaPerPlay": 0.05462910679964387,
+        "totalEPA": 16.279473826293874,
+        "plays": 298,
+        "passingYards": 1973.0,
+        "touchdowns": 9.0,
+        "interceptions": 2.0,
+        "completions": 165.0,
+        "attempts": 285.0
+      },
+      {
+        "player": "C.Stroud",
+        "epaPerPlay": 0.05346103256807123,
+        "totalEPA": 29.99163927068796,
+        "plays": 561,
+        "passingYards": 3420.0,
+        "touchdowns": 21.0,
+        "interceptions": 12.0,
+        "completions": 310.0,
+        "attempts": 525.0
+      },
+      {
+        "player": "B.Mayfield",
+        "epaPerPlay": 0.0452056814004603,
+        "totalEPA": 28.117933831086308,
+        "plays": 622,
+        "passingYards": 3630.0,
+        "touchdowns": 25.0,
+        "interceptions": 10.0,
+        "completions": 338.0,
+        "attempts": 577.0
+      },
+      {
+        "player": "J.Dart",
+        "epaPerPlay": 0.043342806575237314,
+        "totalEPA": 19.114177699679654,
+        "plays": 441,
+        "passingYards": 2214.0,
+        "touchdowns": 13.0,
+        "interceptions": 5.0,
+        "completions": 210.0,
+        "attempts": 369.0
+      },
+      {
+        "player": "M.Mariota",
+        "epaPerPlay": 0.021956028829964797,
+        "totalEPA": 6.169644101220108,
+        "plays": 281,
+        "passingYards": 1680.0,
+        "touchdowns": 10.0,
+        "interceptions": 6.0,
+        "completions": 137.0,
+        "attempts": 238.0
+      },
+      {
+        "player": "C.Wentz",
+        "epaPerPlay": 0.017366552183095612,
+        "totalEPA": 3.3864776757036443,
+        "plays": 195,
+        "passingYards": 1205.0,
+        "touchdowns": 6.0,
+        "interceptions": 5.0,
+        "completions": 108.0,
+        "attempts": 184.0
+      },
+      {
+        "player": "J.Herbert",
+        "epaPerPlay": 0.009724726853629809,
+        "totalEPA": 6.564190626200121,
+        "plays": 675,
+        "passingYards": 3767.0,
+        "touchdowns": 23.0,
+        "interceptions": 12.0,
+        "completions": 351.0,
+        "attempts": 592.0
+      },
+      {
+        "player": "T.Tagovailoa",
+        "epaPerPlay": 0.007383286533383385,
+        "totalEPA": 3.137896776687939,
+        "plays": 425,
+        "passingYards": 2654.0,
+        "touchdowns": 20.0,
+        "interceptions": 12.0,
+        "completions": 259.0,
+        "attempts": 410.0
+      },
+      {
+        "player": "B.Young",
+        "epaPerPlay": 0.0006170536369617492,
+        "totalEPA": 0.359125216711738,
+        "plays": 582,
+        "passingYards": 3272.0,
+        "touchdowns": 24.0,
+        "interceptions": 10.0,
+        "completions": 324.0,
+        "attempts": 542.0
+      },
+      {
+        "player": "J.Brissett",
+        "epaPerPlay": -0.004207548031360393,
+        "totalEPA": -2.3520193495304595,
+        "plays": 559,
+        "passingYards": 3322.0,
+        "touchdowns": 23.0,
+        "interceptions": 8.0,
+        "completions": 311.0,
+        "attempts": 524.0
+      },
+      {
+        "player": "J.Daniels",
+        "epaPerPlay": -0.012145009905952762,
+        "totalEPA": -3.060542496300096,
+        "plays": 252,
+        "passingYards": 1259.0,
+        "touchdowns": 8.0,
+        "interceptions": 3.0,
+        "completions": 113.0,
+        "attempts": 201.0
+      },
+      {
+        "player": "T.Shough",
+        "epaPerPlay": -0.020951712853242828,
+        "totalEPA": -8.171168012764703,
+        "plays": 390,
+        "passingYards": 2365.0,
+        "touchdowns": 10.0,
+        "interceptions": 6.0,
+        "completions": 219.0,
+        "attempts": 354.0
+      },
+      {
+        "player": "J.Fields",
+        "epaPerPlay": -0.030741890834329415,
+        "totalEPA": -8.91514834195553,
+        "plays": 290,
+        "passingYards": 1212.0,
+        "touchdowns": 7.0,
+        "interceptions": 1.0,
+        "completions": 124.0,
+        "attempts": 227.0
+      },
+      {
+        "player": "A.Rodgers",
+        "epaPerPlay": -0.033169596942588954,
+        "totalEPA": -18.906670257275703,
+        "plays": 570,
+        "passingYards": 3437.0,
+        "touchdowns": 24.0,
+        "interceptions": 8.0,
+        "completions": 339.0,
+        "attempts": 557.0
+      },
+      {
+        "player": "K.Cousins",
+        "epaPerPlay": -0.044033075994698224,
+        "totalEPA": -12.461360506499597,
+        "plays": 283,
+        "passingYards": 1642.0,
+        "touchdowns": 10.0,
+        "interceptions": 5.0,
+        "completions": 162.0,
+        "attempts": 275.0
+      },
+      {
+        "player": "T.Taylor",
+        "epaPerPlay": -0.058725257106078,
+        "totalEPA": -10.042018965139338,
+        "plays": 171,
+        "passingYards": 765.0,
+        "touchdowns": 5.0,
+        "interceptions": 5.0,
+        "completions": 79.0,
+        "attempts": 146.0
+      },
+      {
+        "player": "J.Flacco",
+        "epaPerPlay": -0.08702007338064269,
+        "totalEPA": -38.375852360863426,
+        "plays": 441,
+        "passingYards": 2467.0,
+        "touchdowns": 15.0,
+        "interceptions": 10.0,
+        "completions": 250.0,
+        "attempts": 429.0
+      },
+      {
+        "player": "S.Rattler",
+        "epaPerPlay": -0.10125879802931317,
+        "totalEPA": -29.567569024559447,
+        "plays": 292,
+        "passingYards": 1574.0,
+        "touchdowns": 8.0,
+        "interceptions": 5.0,
+        "completions": 170.0,
+        "attempts": 266.0
+      },
+      {
+        "player": "D.Mills",
+        "epaPerPlay": -0.10164715915737087,
+        "totalEPA": -18.093194330012015,
+        "plays": 178,
+        "passingYards": 900.0,
+        "touchdowns": 5.0,
+        "interceptions": 1.0,
+        "completions": 90.0,
+        "attempts": 168.0
+      },
+      {
+        "player": "J.McCarthy",
+        "epaPerPlay": -0.13845131390087864,
+        "totalEPA": -40.98158891466008,
+        "plays": 296,
+        "passingYards": 1608.0,
+        "touchdowns": 11.0,
+        "interceptions": 12.0,
+        "completions": 137.0,
+        "attempts": 269.0
+      },
+      {
+        "player": "G.Smith",
+        "epaPerPlay": -0.1397949399287093,
+        "totalEPA": -73.81172828235852,
+        "plays": 528,
+        "passingYards": 2978.0,
+        "touchdowns": 19.0,
+        "interceptions": 16.0,
+        "completions": 296.0,
+        "attempts": 494.0
+      },
+      {
+        "player": "R.Wilson",
+        "epaPerPlay": -0.1457283267480672,
+        "totalEPA": -20.83915072497361,
+        "plays": 143,
+        "passingYards": 773.0,
+        "touchdowns": 3.0,
+        "interceptions": 3.0,
+        "completions": 67.0,
+        "attempts": 125.0
+      },
+      {
+        "player": "C.Ward",
+        "epaPerPlay": -0.16045915981818576,
+        "totalEPA": -99.96605656672973,
+        "plays": 623,
+        "passingYards": 3169.0,
+        "touchdowns": 15.0,
+        "interceptions": 7.0,
+        "completions": 323.0,
+        "attempts": 591.0
+      },
+      {
+        "player": "D.Gabriel",
+        "epaPerPlay": -0.2336184338924756,
+        "totalEPA": -49.52710798520483,
+        "plays": 212,
+        "passingYards": 923.0,
+        "touchdowns": 7.0,
+        "interceptions": 2.0,
+        "completions": 109.0,
+        "attempts": 202.0
+      },
+      {
+        "player": "S.Sanders",
+        "epaPerPlay": -0.26605640075740633,
+        "totalEPA": -65.18381818556455,
+        "plays": 245,
+        "passingYards": 1368.0,
+        "touchdowns": 7.0,
+        "interceptions": 10.0,
+        "completions": 114.0,
+        "attempts": 225.0
+      },
+      {
+        "player": "J.Browning",
+        "epaPerPlay": -0.36041317810847034,
+        "totalEPA": -50.45784493518585,
+        "plays": 140,
+        "passingYards": 745.0,
+        "touchdowns": 6.0,
+        "interceptions": 8.0,
+        "completions": 79.0,
+        "attempts": 132.0
+      },
+      {
+        "player": "B.Cook",
+        "epaPerPlay": -0.38957817831221936,
+        "totalEPA": -71.29280663113614,
+        "plays": 183,
+        "passingYards": 731.0,
+        "touchdowns": 2.0,
+        "interceptions": 7.0,
+        "completions": 87.0,
+        "attempts": 171.0
+      }
+    ],
+    "rb": [
+      {
+        "player": "T.Bigsby",
+        "epaPerPlay": 0.12952928520674745,
+        "totalEPA": 8.548932823645332,
+        "plays": 66,
+        "rushingYards": 373.0,
+        "touchdowns": 2.0
+      },
+      {
+        "player": "B.Corum",
+        "epaPerPlay": 0.08118719441066359,
+        "totalEPA": 13.80182304981281,
+        "plays": 170,
+        "rushingYards": 863.0,
+        "touchdowns": 6.0
+      },
+      {
+        "player": "K.Hunt",
+        "epaPerPlay": 0.06179507265665575,
+        "totalEPA": 9.88721162506492,
+        "plays": 160,
+        "rushingYards": 607.0,
+        "touchdowns": 7.0
+      },
+      {
+        "player": "J.Taylor",
+        "epaPerPlay": 0.06095088177289576,
+        "totalEPA": 19.443331285553747,
+        "plays": 319,
+        "rushingYards": 1566.0,
+        "touchdowns": 18.0
+      },
+      {
+        "player": "C.Rodriguez",
+        "epaPerPlay": 0.05533496221583586,
+        "totalEPA": 6.197515768173616,
+        "plays": 112,
+        "rushingYards": 500.0,
+        "touchdowns": 6.0
+      },
+      {
+        "player": "Ty.Johnson",
+        "epaPerPlay": 0.055264993206365035,
+        "totalEPA": 2.7632496603182517,
+        "plays": 50,
+        "rushingYards": 200.0,
+        "touchdowns": 3.0
+      },
+      {
+        "player": "D.Achane",
+        "epaPerPlay": 0.04559049639435586,
+        "totalEPA": 10.713766652673627,
+        "plays": 235,
+        "rushingYards": 1325.0,
+        "touchdowns": 8.0
+      },
+      {
+        "player": "J.Williams",
+        "epaPerPlay": 0.044830443622966364,
+        "totalEPA": 11.34210223661049,
+        "plays": 253,
+        "rushingYards": 1191.0,
+        "touchdowns": 11.0
+      },
+      {
+        "player": "D.Swift",
+        "epaPerPlay": 0.04439641701656963,
+        "totalEPA": 11.187897088175546,
+        "plays": 252,
+        "rushingYards": 1208.0,
+        "touchdowns": 10.0
+      },
+      {
+        "player": "K.Mitchell",
+        "epaPerPlay": 0.04435203431452372,
+        "totalEPA": 2.6167700245568994,
+        "plays": 59,
+        "rushingYards": 341.0,
+        "touchdowns": 1.0
+      },
+      {
+        "player": "R.White",
+        "epaPerPlay": 0.03558269918554503,
+        "totalEPA": 4.590168194935309,
+        "plays": 129,
+        "rushingYards": 528.0,
+        "touchdowns": 4.0
+      },
+      {
+        "player": "J.Dobbins",
+        "epaPerPlay": 0.02706281233649078,
+        "totalEPA": 4.086484662810108,
+        "plays": 151,
+        "rushingYards": 748.0,
+        "touchdowns": 4.0
+      },
+      {
+        "player": "R.Davis",
+        "epaPerPlay": 0.02328510493529832,
+        "totalEPA": 1.3505360862473026,
+        "plays": 58,
+        "rushingYards": 275.0,
+        "touchdowns": 0.0
+      },
+      {
+        "player": "D.Henry",
+        "epaPerPlay": 0.022531285306112866,
+        "totalEPA": 6.849510733058311,
+        "plays": 304,
+        "rushingYards": 1544.0,
+        "touchdowns": 16.0
+      },
+      {
+        "player": "K.Williams",
+        "epaPerPlay": 0.01739560881948391,
+        "totalEPA": 5.20128703702569,
+        "plays": 299,
+        "rushingYards": 1406.0,
+        "touchdowns": 12.0
+      },
+      {
+        "player": "M.Davis",
+        "epaPerPlay": 0.0018373894597650232,
+        "totalEPA": 0.09370686244801618,
+        "plays": 51,
+        "rushingYards": 246.0,
+        "touchdowns": 2.0
+      },
+      {
+        "player": "J.Cook",
+        "epaPerPlay": 0.00073924331560827,
+        "totalEPA": 0.2542997005692449,
+        "plays": 344,
+        "rushingYards": 1780.0,
+        "touchdowns": 12.0
+      },
+      {
+        "player": "D.Montgomery",
+        "epaPerPlay": -0.007989299564420654,
+        "totalEPA": -1.2543200316140428,
+        "plays": 157,
+        "rushingYards": 713.0,
+        "touchdowns": 8.0
+      },
+      {
+        "player": "O.Hampton",
+        "epaPerPlay": -0.01180427324125984,
+        "totalEPA": -1.47553415515748,
+        "plays": 125,
+        "rushingYards": 544.0,
+        "touchdowns": 4.0
+      },
+      {
+        "player": "S.Perine",
+        "epaPerPlay": -0.014578073219530394,
+        "totalEPA": -1.2099800772210227,
+        "plays": 83,
+        "rushingYards": 380.0,
+        "touchdowns": 3.0
+      },
+      {
+        "player": "C.Brown",
+        "epaPerPlay": -0.018203264626645375,
+        "totalEPA": -4.2413606580083725,
+        "plays": 233,
+        "rushingYards": 1019.0,
+        "touchdowns": 6.0
+      },
+      {
+        "player": "T.Henderson",
+        "epaPerPlay": -0.01913525541037485,
+        "totalEPA": -3.846186337485345,
+        "plays": 201,
+        "rushingYards": 952.0,
+        "touchdowns": 9.0
+      },
+      {
+        "player": "J.Warren",
+        "epaPerPlay": -0.0208310692216566,
+        "totalEPA": -4.582835228764452,
+        "plays": 220,
+        "rushingYards": 992.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "J.Gibbs",
+        "epaPerPlay": -0.022483976942230446,
+        "totalEPA": -5.373670489193077,
+        "plays": 239,
+        "rushingYards": 1192.0,
+        "touchdowns": 12.0
+      },
+      {
+        "player": "Z.Charbonnet",
+        "epaPerPlay": -0.024698877834159746,
+        "totalEPA": -4.544593521485393,
+        "plays": 184,
+        "rushingYards": 730.0,
+        "touchdowns": 12.0
+      },
+      {
+        "player": "K.Walker",
+        "epaPerPlay": -0.031024866039632257,
+        "totalEPA": -7.818266241987329,
+        "plays": 252,
+        "rushingYards": 1171.0,
+        "touchdowns": 9.0
+      },
+      {
+        "player": "T.Spears",
+        "epaPerPlay": -0.031246363302304188,
+        "totalEPA": -2.2184917944635973,
+        "plays": 71,
+        "rushingYards": 282.0,
+        "touchdowns": 2.0
+      },
+      {
+        "player": "D.Singletary",
+        "epaPerPlay": -0.03145032636702882,
+        "totalEPA": -3.7111385113094,
+        "plays": 118,
+        "rushingYards": 435.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "K.Gainwell",
+        "epaPerPlay": -0.03209363478763252,
+        "totalEPA": -3.7549552701530047,
+        "plays": 117,
+        "rushingYards": 551.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "R.Dowdle",
+        "epaPerPlay": -0.03566235538503161,
+        "totalEPA": -8.451978226252491,
+        "plays": 237,
+        "rushingYards": 1065.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "J.Croskey-Merritt",
+        "epaPerPlay": -0.03710670307794829,
+        "totalEPA": -6.5307797417188995,
+        "plays": 176,
+        "rushingYards": 805.0,
+        "touchdowns": 8.0
+      },
+      {
+        "player": "B.Robinson",
+        "epaPerPlay": -0.03935514598247348,
+        "totalEPA": -14.876245181374975,
+        "plays": 378,
+        "rushingYards": 1858.0,
+        "touchdowns": 9.0
+      },
+      {
+        "player": "J.Mason",
+        "epaPerPlay": -0.041084150616087126,
+        "totalEPA": -6.326959194877418,
+        "plays": 154,
+        "rushingYards": 708.0,
+        "touchdowns": 6.0
+      },
+      {
+        "player": "S.Tucker",
+        "epaPerPlay": -0.042515420188438,
+        "totalEPA": -3.656326136205668,
+        "plays": 86,
+        "rushingYards": 320.0,
+        "touchdowns": 7.0
+      },
+      {
+        "player": "K.Monangai",
+        "epaPerPlay": -0.04558581702455636,
+        "totalEPA": -8.570133600616595,
+        "plays": 188,
+        "rushingYards": 838.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "A.Jones",
+        "epaPerPlay": -0.04860509216281106,
+        "totalEPA": -6.318661981165437,
+        "plays": 130,
+        "rushingYards": 543.0,
+        "touchdowns": 2.0
+      },
+      {
+        "player": "T.Tracy",
+        "epaPerPlay": -0.06190540974006105,
+        "totalEPA": -10.523919655810378,
+        "plays": 170,
+        "rushingYards": 710.0,
+        "touchdowns": 2.0
+      },
+      {
+        "player": "E.Wilson",
+        "epaPerPlay": -0.06242268942300495,
+        "totalEPA": -7.865258867298623,
+        "plays": 126,
+        "rushingYards": 499.0,
+        "touchdowns": 3.0
+      },
+      {
+        "player": "T.Etienne",
+        "epaPerPlay": -0.0625225675286051,
+        "totalEPA": -17.75640917812385,
+        "plays": 284,
+        "rushingYards": 1247.0,
+        "touchdowns": 7.0
+      },
+      {
+        "player": "N.Chubb",
+        "epaPerPlay": -0.06422008652227701,
+        "totalEPA": -8.541271507462842,
+        "plays": 133,
+        "rushingYards": 553.0,
+        "touchdowns": 3.0
+      },
+      {
+        "player": "J.Wright",
+        "epaPerPlay": -0.07539244651221928,
+        "totalEPA": -5.654433488416446,
+        "plays": 75,
+        "rushingYards": 308.0,
+        "touchdowns": 2.0
+      },
+      {
+        "player": "J.Jacobs",
+        "epaPerPlay": -0.07785776771174777,
+        "totalEPA": -19.54229969564869,
+        "plays": 251,
+        "rushingYards": 982.0,
+        "touchdowns": 13.0
+      },
+      {
+        "player": "C.McCaffrey",
+        "epaPerPlay": -0.07864962363890822,
+        "totalEPA": -26.03302542447862,
+        "plays": 331,
+        "rushingYards": 1264.0,
+        "touchdowns": 10.0
+      },
+      {
+        "player": "B.Tuten",
+        "epaPerPlay": -0.0796155993863518,
+        "totalEPA": -7.006172745998959,
+        "plays": 88,
+        "rushingYards": 358.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "M.Carter",
+        "epaPerPlay": -0.08180420609262203,
+        "totalEPA": -7.3623785483359825,
+        "plays": 90,
+        "rushingYards": 329.0,
+        "touchdowns": 1.0
+      },
+      {
+        "player": "T.Pollard",
+        "epaPerPlay": -0.0860814890522754,
+        "totalEPA": -20.745638861598373,
+        "plays": 241,
+        "rushingYards": 1081.0,
+        "touchdowns": 5.0
+      },
+      {
+        "player": "T.Allgeier",
+        "epaPerPlay": -0.08664997774717026,
+        "totalEPA": -12.304296840098177,
+        "plays": 142,
+        "rushingYards": 512.0,
+        "touchdowns": 8.0
+      },
+      {
+        "player": "C.Hubbard",
+        "epaPerPlay": -0.0907874317360606,
+        "totalEPA": -13.254965033464847,
+        "plays": 146,
+        "rushingYards": 552.0,
+        "touchdowns": 3.0
+      },
+      {
+        "player": "B.Hall",
+        "epaPerPlay": -0.09163213790470538,
+        "totalEPA": -22.26660951084341,
+        "plays": 243,
+        "rushingYards": 1065.0,
+        "touchdowns": 4.0
+      },
+      {
+        "player": "S.Barkley",
+        "epaPerPlay": -0.09413099464452591,
+        "totalEPA": -28.427560382646824,
+        "plays": 302,
+        "rushingYards": 1233.0,
+        "touchdowns": 7.0
+      }
+    ],
+    "wr": [
+      {
+        "player": "A.Pierce",
+        "epaPerPlay": 0.7082487262081892,
+        "totalEPA": 58.07639554907151,
+        "targets": 82,
+        "receivingYards": 1003.0,
+        "touchdowns": 6.0,
+        "receptions": 47.0
+      },
+      {
+        "player": "K.Boutte",
+        "epaPerPlay": 0.6832086641748891,
+        "totalEPA": 40.992519850493345,
+        "targets": 60,
+        "receivingYards": 669.0,
+        "touchdowns": 6.0,
+        "receptions": 40.0
+      },
+      {
+        "player": "G.Pickens",
+        "epaPerPlay": 0.6227191029387792,
+        "totalEPA": 84.0670788967352,
+        "targets": 135,
+        "receivingYards": 1386.0,
+        "touchdowns": 8.0,
+        "receptions": 91.0
+      },
+      {
+        "player": "T.Thornton",
+        "epaPerPlay": 0.6135095148403356,
+        "totalEPA": 21.472833019411745,
+        "targets": 35,
+        "receivingYards": 391.0,
+        "touchdowns": 3.0,
+        "receptions": 17.0
+      },
+      {
+        "player": "P.Nacua",
+        "epaPerPlay": 0.604425092840521,
+        "totalEPA": 123.90714403230682,
+        "targets": 205,
+        "receivingYards": 2018.0,
+        "touchdowns": 12.0,
+        "receptions": 151.0
+      },
+      {
+        "player": "C.Watson",
+        "epaPerPlay": 0.5945557905935408,
+        "totalEPA": 36.86245901679953,
+        "targets": 62,
+        "receivingYards": 647.0,
+        "touchdowns": 7.0,
+        "receptions": 38.0
+      },
+      {
+        "player": "J.Coker",
+        "epaPerPlay": 0.5896355941812339,
+        "totalEPA": 32.42995767996786,
+        "targets": 55,
+        "receivingYards": 525.0,
+        "touchdowns": 4.0,
+        "receptions": 41.0
+      },
+      {
+        "player": "D.Douglas",
+        "epaPerPlay": 0.5869272950362007,
+        "totalEPA": 29.933292046846233,
+        "targets": 51,
+        "receivingYards": 486.0,
+        "touchdowns": 4.0,
+        "receptions": 34.0
+      },
+      {
+        "player": "S.Diggs",
+        "epaPerPlay": 0.576309617762817,
+        "totalEPA": 68.0045348960124,
+        "targets": 118,
+        "receivingYards": 1078.0,
+        "touchdowns": 5.0,
+        "receptions": 95.0
+      },
+      {
+        "player": "T.McLaurin",
+        "epaPerPlay": 0.5291637756750293,
+        "totalEPA": 31.749826540501754,
+        "targets": 60,
+        "receivingYards": 582.0,
+        "touchdowns": 3.0,
+        "receptions": 38.0
+      },
+      {
+        "player": "J.Smith-Njigba",
+        "epaPerPlay": 0.5160185162975717,
+        "totalEPA": 89.78722183577747,
+        "targets": 174,
+        "receivingYards": 1862.0,
+        "touchdowns": 11.0,
+        "receptions": 127.0
+      },
+      {
+        "player": "K.Raymond",
+        "epaPerPlay": 0.5068361005947739,
+        "totalEPA": 15.205083017843219,
+        "targets": 30,
+        "receivingYards": 289.0,
+        "touchdowns": 1.0,
+        "receptions": 24.0
+      },
+      {
+        "player": "M.Golden",
+        "epaPerPlay": 0.48887531265687406,
+        "totalEPA": 23.466015007529954,
+        "targets": 48,
+        "receivingYards": 452.0,
+        "touchdowns": 1.0,
+        "receptions": 32.0
+      },
+      {
+        "player": "R.Flournoy",
+        "epaPerPlay": 0.4883906908827909,
+        "totalEPA": 26.8614879985535,
+        "targets": 55,
+        "receivingYards": 462.0,
+        "touchdowns": 4.0,
+        "receptions": 39.0
+      },
+      {
+        "player": "J.Williams",
+        "epaPerPlay": 0.4871436388820547,
+        "totalEPA": 48.71436388820547,
+        "targets": 100,
+        "receivingYards": 1040.0,
+        "touchdowns": 6.0,
+        "receptions": 63.0
+      },
+      {
+        "player": "M.Hollins",
+        "epaPerPlay": 0.4844241757982595,
+        "totalEPA": 32.45641977848339,
+        "targets": 67,
+        "receivingYards": 601.0,
+        "touchdowns": 2.0,
+        "receptions": 48.0
+      },
+      {
+        "player": "T.Higgins",
+        "epaPerPlay": 0.47212464671093973,
+        "totalEPA": 45.796090730961154,
+        "targets": 97,
+        "receivingYards": 831.0,
+        "touchdowns": 11.0,
+        "receptions": 58.0
+      },
+      {
+        "player": "R.Pearsall",
+        "epaPerPlay": 0.44117453734966433,
+        "totalEPA": 24.264599554231538,
+        "targets": 55,
+        "receivingYards": 528.0,
+        "touchdowns": 0.0,
+        "receptions": 36.0
+      },
+      {
+        "player": "R.Doubs",
+        "epaPerPlay": 0.43641225629956304,
+        "totalEPA": 41.459164348458486,
+        "targets": 95,
+        "receivingYards": 802.0,
+        "touchdowns": 6.0,
+        "receptions": 61.0
+      },
+      {
+        "player": "T.Johnson",
+        "epaPerPlay": 0.43421728524967823,
+        "totalEPA": 26.92147168548005,
+        "targets": 62,
+        "receivingYards": 519.0,
+        "touchdowns": 6.0,
+        "receptions": 40.0
+      },
+      {
+        "player": "D.Smith",
+        "epaPerPlay": 0.4228777906817073,
+        "totalEPA": 52.436846044531706,
+        "targets": 124,
+        "receivingYards": 1077.0,
+        "touchdowns": 4.0,
+        "receptions": 84.0
+      },
+      {
+        "player": "M.Harrison",
+        "epaPerPlay": 0.42046969561426367,
+        "totalEPA": 31.114757475455512,
+        "targets": 74,
+        "receivingYards": 608.0,
+        "touchdowns": 4.0,
+        "receptions": 41.0
+      },
+      {
+        "player": "B.Cooks",
+        "epaPerPlay": 0.4137623349631836,
+        "totalEPA": 19.446829743269628,
+        "targets": 47,
+        "receivingYards": 357.0,
+        "touchdowns": 0.0,
+        "receptions": 29.0
+      },
+      {
+        "player": "Mi.Wilson",
+        "epaPerPlay": 0.38650414025958424,
+        "totalEPA": 23.190248415575056,
+        "targets": 60,
+        "receivingYards": 459.0,
+        "touchdowns": 1.0,
+        "receptions": 41.0
+      },
+      {
+        "player": "K.Turpin",
+        "epaPerPlay": 0.3821908049842923,
+        "totalEPA": 14.141059784418816,
+        "targets": 37,
+        "receivingYards": 384.0,
+        "touchdowns": 2.0,
+        "receptions": 25.0
+      },
+      {
+        "player": "J.Noel",
+        "epaPerPlay": 0.3651548977094615,
+        "totalEPA": 13.510731215250075,
+        "targets": 37,
+        "receivingYards": 292.0,
+        "touchdowns": 2.0,
+        "receptions": 26.0
+      },
+      {
+        "player": "Z.Flowers",
+        "epaPerPlay": 0.35936095470708596,
+        "totalEPA": 42.045231700729055,
+        "targets": 117,
+        "receivingYards": 1186.0,
+        "touchdowns": 5.0,
+        "receptions": 84.0
+      },
+      {
+        "player": "T.Harris",
+        "epaPerPlay": 0.3550013842502305,
+        "totalEPA": 16.3300636755106,
+        "targets": 46,
+        "receivingYards": 344.0,
+        "touchdowns": 1.0,
+        "receptions": 32.0
+      },
+      {
+        "player": "J.Waddle",
+        "epaPerPlay": 0.35365284262640145,
+        "totalEPA": 35.01163142001374,
+        "targets": 99,
+        "receivingYards": 910.0,
+        "touchdowns": 6.0,
+        "receptions": 64.0
+      },
+      {
+        "player": "L.Burden",
+        "epaPerPlay": 0.351755589604255,
+        "totalEPA": 26.029913630714873,
+        "targets": 74,
+        "receivingYards": 718.0,
+        "touchdowns": 2.0,
+        "receptions": 53.0
+      },
+      {
+        "player": "C.Ridley",
+        "epaPerPlay": 0.3394784731073687,
+        "totalEPA": 12.221225031865272,
+        "targets": 36,
+        "receivingYards": 303.0,
+        "touchdowns": 0.0,
+        "receptions": 17.0
+      },
+      {
+        "player": "D.Vele",
+        "epaPerPlay": 0.3341962760139006,
+        "totalEPA": 13.033654764542124,
+        "targets": 39,
+        "receivingYards": 277.0,
+        "touchdowns": 2.0,
+        "receptions": 24.0
+      },
+      {
+        "player": "A.St. Brown",
+        "epaPerPlay": 0.323341373495086,
+        "totalEPA": 55.614716241154795,
+        "targets": 172,
+        "receivingYards": 1401.0,
+        "touchdowns": 11.0,
+        "receptions": 117.0
+      },
+      {
+        "player": "D.Robinson",
+        "epaPerPlay": 0.30848165375708086,
+        "totalEPA": 13.264711111554478,
+        "targets": 43,
+        "receivingYards": 375.0,
+        "touchdowns": 2.0,
+        "receptions": 28.0
+      },
+      {
+        "player": "D.Wicks",
+        "epaPerPlay": 0.307782246459321,
+        "totalEPA": 14.157983337128767,
+        "targets": 46,
+        "receivingYards": 332.0,
+        "touchdowns": 2.0,
+        "receptions": 30.0
+      },
+      {
+        "player": "C.Sutton",
+        "epaPerPlay": 0.30576835891321097,
+        "totalEPA": 42.196033530023115,
+        "targets": 138,
+        "receivingYards": 1065.0,
+        "touchdowns": 8.0,
+        "receptions": 80.0
+      },
+      {
+        "player": "D.Metcalf",
+        "epaPerPlay": 0.3031624637552168,
+        "totalEPA": 31.225733766787336,
+        "targets": 103,
+        "receivingYards": 892.0,
+        "touchdowns": 6.0,
+        "receptions": 61.0
+      },
+      {
+        "player": "K.Bourne",
+        "epaPerPlay": 0.30243038750626416,
+        "totalEPA": 16.63367131284453,
+        "targets": 55,
+        "receivingYards": 551.0,
+        "touchdowns": 0.0,
+        "receptions": 37.0
+      },
+      {
+        "player": "M.Brown",
+        "epaPerPlay": 0.3019905857287263,
+        "totalEPA": 22.347303343925745,
+        "targets": 74,
+        "receivingYards": 587.0,
+        "touchdowns": 5.0,
+        "receptions": 49.0
+      },
+      {
+        "player": "P.Bryant",
+        "epaPerPlay": 0.29829895093246134,
+        "totalEPA": 15.809844399420452,
+        "targets": 53,
+        "receivingYards": 412.0,
+        "touchdowns": 1.0,
+        "receptions": 35.0
+      },
+      {
+        "player": "N.Collins",
+        "epaPerPlay": 0.2884497684356533,
+        "totalEPA": 36.056221054456664,
+        "targets": 125,
+        "receivingYards": 1105.0,
+        "touchdowns": 6.0,
+        "receptions": 72.0
+      },
+      {
+        "player": "T.McMillan",
+        "epaPerPlay": 0.2869185295023121,
+        "totalEPA": 36.72557177629595,
+        "targets": 128,
+        "receivingYards": 1094.0,
+        "touchdowns": 7.0,
+        "receptions": 75.0
+      },
+      {
+        "player": "D.Slayton",
+        "epaPerPlay": 0.27694469499955854,
+        "totalEPA": 18.001405174971303,
+        "targets": 65,
+        "receivingYards": 538.0,
+        "touchdowns": 1.0,
+        "receptions": 37.0
+      },
+      {
+        "player": "A.Brown",
+        "epaPerPlay": 0.25119454418290277,
+        "totalEPA": 32.152901655411554,
+        "targets": 128,
+        "receivingYards": 1028.0,
+        "touchdowns": 7.0,
+        "receptions": 81.0
+      },
+      {
+        "player": "L.Humphrey",
+        "epaPerPlay": 0.2464159044526344,
+        "totalEPA": 7.885308942484301,
+        "targets": 32,
+        "receivingYards": 185.0,
+        "touchdowns": 2.0,
+        "receptions": 15.0
+      },
+      {
+        "player": "C.Godwin",
+        "epaPerPlay": 0.24629924038430837,
+        "totalEPA": 12.314962019215418,
+        "targets": 50,
+        "receivingYards": 352.0,
+        "touchdowns": 2.0,
+        "receptions": 32.0
+      },
+      {
+        "player": "J.Higgins",
+        "epaPerPlay": 0.24518028469564848,
+        "totalEPA": 20.349963629738824,
+        "targets": 83,
+        "receivingYards": 623.0,
+        "touchdowns": 6.0,
+        "receptions": 50.0
+      },
+      {
+        "player": "T.Tucker",
+        "epaPerPlay": 0.24448847363690682,
+        "totalEPA": 22.24845110095852,
+        "targets": 91,
+        "receivingYards": 696.0,
+        "touchdowns": 5.0,
+        "receptions": 57.0
+      },
+      {
+        "player": "D.Moore",
+        "epaPerPlay": 0.24233974315705548,
+        "totalEPA": 23.99163457254849,
+        "targets": 99,
+        "receivingYards": 780.0,
+        "touchdowns": 8.0,
+        "receptions": 60.0
+      },
+      {
+        "player": "D.Hopkins",
+        "epaPerPlay": 0.24223664301691528,
+        "totalEPA": 9.447229077659696,
+        "targets": 39,
+        "receivingYards": 330.0,
+        "touchdowns": 2.0,
+        "receptions": 22.0
+      }
+    ],
+    "te": [
+      {
+        "player": "T.Kraft",
+        "epaPerPlay": 0.8891790188757692,
+        "totalEPA": 39.123876830533845,
+        "targets": 44,
+        "receivingYards": 489.0,
+        "touchdowns": 6.0,
+        "receptions": 32.0
+      },
+      {
+        "player": "D.Kincaid",
+        "epaPerPlay": 0.8184740143398082,
+        "totalEPA": 49.9269148747283,
+        "targets": 61,
+        "receivingYards": 682.0,
+        "touchdowns": 7.0,
+        "receptions": 48.0
+      },
+      {
+        "player": "D.Waller",
+        "epaPerPlay": 0.8076067147606053,
+        "totalEPA": 28.266235016621184,
+        "targets": 35,
+        "receivingYards": 283.0,
+        "touchdowns": 6.0,
+        "receptions": 24.0
+      },
+      {
+        "player": "S.LaPorta",
+        "epaPerPlay": 0.7434253533214469,
+        "totalEPA": 36.4278423127509,
+        "targets": 49,
+        "receivingYards": 489.0,
+        "touchdowns": 3.0,
+        "receptions": 40.0
+      },
+      {
+        "player": "G.Kittle",
+        "epaPerPlay": 0.6457530361163345,
+        "totalEPA": 45.84846556425975,
+        "targets": 71,
+        "receivingYards": 634.0,
+        "touchdowns": 7.0,
+        "receptions": 58.0
+      },
+      {
+        "player": "G.Dulcich",
+        "epaPerPlay": 0.5150349497480989,
+        "totalEPA": 17.511188291435364,
+        "targets": 34,
+        "receivingYards": 335.0,
+        "touchdowns": 1.0,
+        "receptions": 26.0
+      },
+      {
+        "player": "C.Loveland",
+        "epaPerPlay": 0.45709343275798486,
+        "totalEPA": 49.82318417062035,
+        "targets": 109,
+        "receivingYards": 906.0,
+        "touchdowns": 6.0,
+        "receptions": 70.0
+      },
+      {
+        "player": "A.Barner",
+        "epaPerPlay": 0.45660141920027886,
+        "totalEPA": 31.96209934401952,
+        "targets": 70,
+        "receivingYards": 532.0,
+        "touchdowns": 6.0,
+        "receptions": 54.0
+      },
+      {
+        "player": "B.Strange",
+        "epaPerPlay": 0.4562755630608216,
+        "totalEPA": 29.657911598953405,
+        "targets": 65,
+        "receivingYards": 549.0,
+        "touchdowns": 3.0,
+        "receptions": 48.0
+      },
+      {
+        "player": "H.Henry",
+        "epaPerPlay": 0.43486551025656145,
+        "totalEPA": 42.18195449488646,
+        "targets": 97,
+        "receivingYards": 849.0,
+        "touchdowns": 8.0,
+        "receptions": 66.0
+      },
+      {
+        "player": "D.Goedert",
+        "epaPerPlay": 0.42631298397829404,
+        "totalEPA": 37.94185557406817,
+        "targets": 89,
+        "receivingYards": 624.0,
+        "touchdowns": 12.0,
+        "receptions": 64.0
+      },
+      {
+        "player": "T.McBride",
+        "epaPerPlay": 0.4225811374746822,
+        "totalEPA": 70.57104995827193,
+        "targets": 167,
+        "receivingYards": 1202.0,
+        "touchdowns": 11.0,
+        "receptions": 123.0
+      },
+      {
+        "player": "A.Hooper",
+        "epaPerPlay": 0.3953248196611336,
+        "totalEPA": 11.859744589834008,
+        "targets": 30,
+        "receivingYards": 277.0,
+        "touchdowns": 2.0,
+        "receptions": 22.0
+      },
+      {
+        "player": "D.Schultz",
+        "epaPerPlay": 0.3888606679748185,
+        "totalEPA": 43.552394813179674,
+        "targets": 112,
+        "receivingYards": 828.0,
+        "touchdowns": 3.0,
+        "receptions": 86.0
+      },
+      {
+        "player": "T.Kelce",
+        "epaPerPlay": 0.35365996896349894,
+        "totalEPA": 38.195276648057884,
+        "targets": 108,
+        "receivingYards": 834.0,
+        "touchdowns": 5.0,
+        "receptions": 75.0
+      },
+      {
+        "player": "J.Johnson",
+        "epaPerPlay": 0.3339462831668074,
+        "totalEPA": 33.72857459984755,
+        "targets": 101,
+        "receivingYards": 883.0,
+        "touchdowns": 3.0,
+        "receptions": 76.0
+      },
+      {
+        "player": "D.Knox",
+        "epaPerPlay": 0.3233242500564174,
+        "totalEPA": 18.75280650327221,
+        "targets": 58,
+        "receivingYards": 479.0,
+        "touchdowns": 4.0,
+        "receptions": 42.0
+      },
+      {
+        "player": "C.Parkinson",
+        "epaPerPlay": 0.29947234475253115,
+        "totalEPA": 20.963064132677182,
+        "targets": 70,
+        "receivingYards": 560.0,
+        "touchdowns": 9.0,
+        "receptions": 51.0
+      },
+      {
+        "player": "O.Gadsden",
+        "epaPerPlay": 0.27970794713934394,
+        "totalEPA": 19.579556299754074,
+        "targets": 70,
+        "receivingYards": 686.0,
+        "touchdowns": 2.0,
+        "receptions": 51.0
+      },
+      {
+        "player": "P.Freiermuth",
+        "epaPerPlay": 0.2778177295773937,
+        "totalEPA": 15.557792856334046,
+        "targets": 56,
+        "receivingYards": 497.0,
+        "touchdowns": 4.0,
+        "receptions": 41.0
+      },
+      {
+        "player": "L.Musgrave",
+        "epaPerPlay": 0.2767396511444531,
+        "totalEPA": 8.855668836622499,
+        "targets": 32,
+        "receivingYards": 245.0,
+        "touchdowns": 0.0,
+        "receptions": 24.0
+      },
+      {
+        "player": "B.Bowers",
+        "epaPerPlay": 0.26836196153092723,
+        "totalEPA": 23.34749065319067,
+        "targets": 87,
+        "receivingYards": 680.0,
+        "touchdowns": 7.0,
+        "receptions": 64.0
+      },
+      {
+        "player": "D.Washington",
+        "epaPerPlay": 0.2601456321578982,
+        "totalEPA": 11.186262182789623,
+        "targets": 43,
+        "receivingYards": 353.0,
+        "touchdowns": 1.0,
+        "receptions": 30.0
+      },
+      {
+        "player": "T.Higbee",
+        "epaPerPlay": 0.2502310035887738,
+        "totalEPA": 10.5097021507285,
+        "targets": 42,
+        "receivingYards": 365.0,
+        "touchdowns": 3.0,
+        "receptions": 29.0
+      },
+      {
+        "player": "T.Tremble",
+        "epaPerPlay": 0.2204735606805744,
+        "totalEPA": 8.818942427222975,
+        "targets": 40,
+        "receivingYards": 271.0,
+        "touchdowns": 2.0,
+        "receptions": 30.0
+      },
+      {
+        "player": "J.Tonges",
+        "epaPerPlay": 0.215840152846068,
+        "totalEPA": 11.87120840653374,
+        "targets": 55,
+        "receivingYards": 366.0,
+        "touchdowns": 5.0,
+        "receptions": 40.0
+      },
+      {
+        "player": "C.Kmet",
+        "epaPerPlay": 0.21135929847253876,
+        "totalEPA": 11.202042819044554,
+        "targets": 53,
+        "receivingYards": 369.0,
+        "touchdowns": 3.0,
+        "receptions": 32.0
+      },
+      {
+        "player": "D.Allen",
+        "epaPerPlay": 0.1939079358617164,
+        "totalEPA": 6.205053947574925,
+        "targets": 32,
+        "receivingYards": 200.0,
+        "touchdowns": 3.0,
+        "receptions": 23.0
+      },
+      {
+        "player": "T.Hockenson",
+        "epaPerPlay": 0.1920808413682137,
+        "totalEPA": 12.48525468893389,
+        "targets": 65,
+        "receivingYards": 434.0,
+        "touchdowns": 3.0,
+        "receptions": 50.0
+      },
+      {
+        "player": "K.Pitts",
+        "epaPerPlay": 0.18440507632986727,
+        "totalEPA": 21.75979900692434,
+        "targets": 118,
+        "receivingYards": 925.0,
+        "touchdowns": 5.0,
+        "receptions": 87.0
+      },
+      {
+        "player": "Z.Ertz",
+        "epaPerPlay": 0.1749726489735778,
+        "totalEPA": 12.598030726097603,
+        "targets": 72,
+        "receivingYards": 504.0,
+        "touchdowns": 4.0,
+        "receptions": 50.0
+      },
+      {
+        "player": "C.Okonkwo",
+        "epaPerPlay": 0.16039372231281626,
+        "totalEPA": 12.671104062712484,
+        "targets": 79,
+        "receivingYards": 560.0,
+        "touchdowns": 2.0,
+        "receptions": 56.0
+      },
+      {
+        "player": "J.Ferguson",
+        "epaPerPlay": 0.1455290415726118,
+        "totalEPA": 14.55290415726118,
+        "targets": 100,
+        "receivingYards": 591.0,
+        "touchdowns": 7.0,
+        "receptions": 79.0
+      },
+      {
+        "player": "J.Sanders",
+        "epaPerPlay": 0.12991161195181083,
+        "totalEPA": 4.4169948063615685,
+        "targets": 34,
+        "receivingYards": 190.0,
+        "touchdowns": 1.0,
+        "receptions": 29.0
+      },
+      {
+        "player": "M.Taylor",
+        "epaPerPlay": 0.12365218058268998,
+        "totalEPA": 8.037391737874849,
+        "targets": 65,
+        "receivingYards": 359.0,
+        "touchdowns": 1.0,
+        "receptions": 43.0
+      },
+      {
+        "player": "T.Warren",
+        "epaPerPlay": 0.12304978574232142,
+        "totalEPA": 13.90462578888232,
+        "targets": 113,
+        "receivingYards": 800.0,
+        "touchdowns": 4.0,
+        "receptions": 75.0
+      },
+      {
+        "player": "T.Johnson",
+        "epaPerPlay": 0.10515992887188483,
+        "totalEPA": 7.676674807647593,
+        "targets": 73,
+        "receivingYards": 525.0,
+        "touchdowns": 4.0,
+        "receptions": 44.0
+      },
+      {
+        "player": "M.Gesicki",
+        "epaPerPlay": 0.10196977223677366,
+        "totalEPA": 4.384700206181267,
+        "targets": 43,
+        "receivingYards": 307.0,
+        "touchdowns": 2.0,
+        "receptions": 28.0
+      },
+      {
+        "player": "I.Likely",
+        "epaPerPlay": 0.0887838351365114,
+        "totalEPA": 3.107434229777899,
+        "targets": 35,
+        "receivingYards": 296.0,
+        "touchdowns": 1.0,
+        "receptions": 26.0
+      },
+      {
+        "player": "G.Helm",
+        "epaPerPlay": 0.069717796831776,
+        "totalEPA": 3.83447882574768,
+        "targets": 55,
+        "receivingYards": 357.0,
+        "touchdowns": 2.0,
+        "receptions": 44.0
+      },
+      {
+        "player": "E.Higgins",
+        "epaPerPlay": 0.038586035046751635,
+        "totalEPA": 1.4276832967298105,
+        "targets": 37,
+        "receivingYards": 301.0,
+        "touchdowns": 0.0,
+        "receptions": 30.0
+      },
+      {
+        "player": "C.Otton",
+        "epaPerPlay": 0.03756494610003398,
+        "totalEPA": 3.0803255802027865,
+        "targets": 82,
+        "receivingYards": 572.0,
+        "touchdowns": 1.0,
+        "receptions": 59.0
+      },
+      {
+        "player": "M.Andrews",
+        "epaPerPlay": 0.022109239233504257,
+        "totalEPA": 1.5476467463452979,
+        "targets": 70,
+        "receivingYards": 422.0,
+        "touchdowns": 5.0,
+        "receptions": 48.0
+      },
+      {
+        "player": "H.Fannin",
+        "epaPerPlay": 8.936234639847418e-05,
+        "totalEPA": 0.009561771064636737,
+        "targets": 107,
+        "receivingYards": 718.0,
+        "touchdowns": 6.0,
+        "receptions": 71.0
+      },
+      {
+        "player": "E.Engram",
+        "epaPerPlay": -0.032819025779705656,
+        "totalEPA": -2.7239791397155697,
+        "targets": 83,
+        "receivingYards": 487.0,
+        "touchdowns": 1.0,
+        "receptions": 53.0
+      },
+      {
+        "player": "J.Smith",
+        "epaPerPlay": -0.039006649761888126,
+        "totalEPA": -2.223379036427623,
+        "targets": 57,
+        "receivingYards": 219.0,
+        "touchdowns": 2.0,
+        "receptions": 39.0
+      },
+      {
+        "player": "N.Fant",
+        "epaPerPlay": -0.07172115779329935,
+        "totalEPA": -2.868846311731974,
+        "targets": 40,
+        "receivingYards": 283.0,
+        "touchdowns": 3.0,
+        "receptions": 33.0
+      },
+      {
+        "player": "D.Njoku",
+        "epaPerPlay": -0.0753077571559954,
+        "totalEPA": -3.614772343487779,
+        "targets": 48,
+        "receivingYards": 293.0,
+        "touchdowns": 4.0,
+        "receptions": 33.0
+      },
+      {
+        "player": "N.Gray",
+        "epaPerPlay": -0.1803768333120516,
+        "totalEPA": -6.854319665857961,
+        "targets": 38,
+        "receivingYards": 178.0,
+        "touchdowns": 0.0,
+        "receptions": 21.0
+      },
+      {
+        "player": "M.Mayer",
+        "epaPerPlay": -0.1968367652389679,
+        "totalEPA": -9.841838261948395,
+        "targets": 50,
+        "receivingYards": 328.0,
+        "touchdowns": 1.0,
+        "receptions": 35.0
+      }
+    ]
+  },
+  "lastUpdated": "2026-02-06T21:35:19.195097"
 }
